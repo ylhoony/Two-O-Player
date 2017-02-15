@@ -7,12 +7,12 @@ class Player
     @life = 3
   end
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
-  def life
-    @life
-  end
+  # def life
+  #   @life
+  # end
 
 end
