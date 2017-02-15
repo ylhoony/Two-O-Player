@@ -1,7 +1,6 @@
 class Player
 
-  attr_accessor :name
-  attr_accessor :life
+  attr_accessor :name, :life
 
   def initialize (name)
     @name = name
@@ -17,6 +16,3 @@ class Player
   end
 
 end
-
-player_1 = Player.new("Player 1")
-player_2 = Player.new("Player 2")
